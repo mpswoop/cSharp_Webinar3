@@ -1,5 +1,7 @@
 ﻿// input two pairs of coordinates X & Y both and calculate distance
 
+Console.Clear();
+
 Console.WriteLine("input first X coordinate");
 double firstX = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("input first Y coordinate");
