@@ -20,6 +20,8 @@ Console.WriteLine("");
 Console.WriteLine(distanceX);
 Console.WriteLine(distanceY);
 Console.WriteLine("");
+double distance = Math.Sqrt(distanceX * distanceX + distanceY * distanceY);
+
 Console.WriteLine("The distance between the coordinates is:");
-Console.WriteLine(Math.Sqrt(distanceX * distanceX + distanceY * distanceY));
+Console.WriteLine($"{Math.Round(distance,2)}");
 
